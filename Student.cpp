@@ -1,5 +1,6 @@
 #include "Student.h"
 #include <iostream>
+#include <cstring>
 
 // Assign studentId and name
 Student::assignDetails(int id , char sname[]){
