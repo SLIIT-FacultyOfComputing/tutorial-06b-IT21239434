@@ -3,15 +3,28 @@
 // Implement setters and getters
 void Box::setlength(int l)
 {
-  lenght = l ;
+  length = l ;
 }
 void Box::setwidth(int w)
 {
   width = w ;
 }
-void Box::setheigth(int h)
+void Box::setheight(int h)
 {
-  height
+  height = h ;
+}
+
+int Box::getlength()
+{
+  return length;
+}
+int Box::getwidth()
+{
+  return width;
+}
+int Box::getheight()
+{
+  return height;
 }
 
 // Implemenet the calcVolume() unction
