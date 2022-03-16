@@ -12,7 +12,7 @@ class Box {
        // write prototypes of getters for length, width and height
       int getlength();
       int getwidth();
-      int getheigth();
+      int getheight();
  
        int calcVolume();
 };
