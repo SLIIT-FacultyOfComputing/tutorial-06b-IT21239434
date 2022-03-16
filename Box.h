@@ -10,9 +10,9 @@ class Box {
       void setwidth(int w);
       void setheight(int h);
        // write prototypes of getters for length, width and height
-      int getlength();
-      int getwidth();
-      int getheight();
+      int getLength();
+      int getWidth();
+      int getHeight();
  
        int calcVolume();
 };

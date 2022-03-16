@@ -14,15 +14,15 @@ void Box::setheight(int h)
   height = h ;
 }
 
-int Box::getlength()
+int Box::getLength()
 {
   return length;
 }
-int Box::getwidth()
+int Box::getWidth()
 {
   return width;
 }
-int Box::getheight()
+int Box::getHeight()
 {
   return height;
 }
