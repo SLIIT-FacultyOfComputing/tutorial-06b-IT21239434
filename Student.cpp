@@ -4,9 +4,9 @@ using namespace std;
 #include <cstring>
 
 // Assign studentId and name
-void Student::assignDetails(int id , char sname[]);{
+void Student::assignDetails(int id , char sname[]){
   studentID = id ;
-  strcpy_s(name , sname);
+  strcpy(name , sname);
 }
 
 // Display StudentId and Name
