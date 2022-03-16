@@ -1,7 +1,7 @@
 class Student {
   // private section
   private:
-    int studentID ;
+    int studentid ;
     char name[20];
   //    int studentId
   //    name <- 20 charcters
