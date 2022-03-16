@@ -8,7 +8,7 @@ class Box {
 
       void setlength(int l);
       void setwidth(int w);
-      void setheigth(int h);
+      void setheight(int h);
        // write prototypes of getters for length, width and height
       int getlength();
       int getwidth();
